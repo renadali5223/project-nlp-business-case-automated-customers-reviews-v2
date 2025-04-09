@@ -87,9 +87,9 @@ Explore models on [Hugging Face](https://huggingface.co/models) and experiment w
 - **Larger Dataset**: [Amazon Reviews Dataset](https://cseweb.ucsd.edu/~jmcauley/datasets.html#amazon_reviews)
 - **Additional Datasets**: You are free to use other datasets from sources like HuggingFace, Kaggle, or any other platform.
 
-## Deployment
+<!-- ## Deployment -->
 
-- **Hosting**: You are free to host the models on your laptop or any cloud platform.
+<!-- - **Hosting**: You are free to host the models on your laptop or any cloud platform.
 - **Framework**: You can use any framework of your choice (e.g., Gradio, AWS, etc.).
 
 - **Options**:
@@ -99,7 +99,23 @@ Explore models on [Hugging Face](https://huggingface.co/models) and experiment w
   - Build a live review aggregator.
   - Develop a website that generates recommendations by uploading a file with reviews.
 
-- **Inspiration**: Look at websites like Consumer Reviews, The Verge, or The Wirecutter for ideas.
+- **Inspiration**: Look at websites like Consumer Reviews, The Verge, or The Wirecutter for ideas. -->
+
+
+## Deployment Guidelines
+
+### Expectations
+
+- You are expected to showcase a webpage or web app in which some simple user interactions are possible (for example through buttons, text boxes, sliders, ...).
+- All your three components (classification, clustering, and text summarizer) should be visible or possible to interact with on the page in some form.
+- You are free to host the models on your laptop or any cloud platform (e.g., Gradio, AWS, etc.).
+
+We provide you with some ideas below. However, you are not limited to these options. Feel free to build a web app or website that does different things to what listed below.
+
+1. **Create a website for the marketing department in your company**, who needs to gain insights on how well the products are received by customers (from reviews) and what other competitive products exist in the market.  For example, users in your webpage can choose between product categories and be shown statistics insights (distribution of ratings, best product ratings, etc), and text summarization for that specific category (which are the best product in this category, etc).
+2. **Build a live review aggregator**: this could be a website like, for example, https://www.trustpilot.com/ or https://www.yelp.com/, organizing reviews strategically for buyers. You could add functionality for users to add reviews (for example, through a form, a user could write about a product, selecting which cluster category it belongs to and the rating given). Once a review is submitted, it could be displayed on the page as a ‘recently added review’. Feel free to come up with your own ideas about how you would like your live review aggregator to look like and behave
+3. **Develop a website that generates recommendations by allowing users to upload a csv file with reviews**. For example, this website could allow business owners to upload a dataset of their products and respective reviews. Your website would process these, classifying them, clustering them, and showing insights in the form of small articles listing top products, main product issues, etc., for example (e.g., a list of articles, one per product; a list of articles, one per cluster).
+4. **Develop a website that allows users to search for information about a product or product category through a text box**. This could be a text box where users type in what they are looking for / would like to buy. The output could display recommendations of products in text summary format, the category of the product, and the sentiment distribution for that product.
 
 ## Deliverables
 
